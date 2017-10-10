@@ -1,109 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5028" started-at="2017-10-10T02:57:43Z" finished-at="2017-10-10T02:57:48Z">
+  <suite name="Default suite" duration-ms="3064" started-at="2017-10-10T03:08:24Z" finished-at="2017-10-10T03:08:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5028" started-at="2017-10-10T02:57:43Z" finished-at="2017-10-10T02:57:48Z">
+    <test name="Default test" duration-ms="3064" started-at="2017-10-10T03:08:24Z" finished-at="2017-10-10T03:08:27Z">
       <class name="texch_x.Tech_x_testNG">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeClass" is-config="true" duration-ms="2297" started-at="2017-10-10T08:27:43Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeClass" is-config="true" duration-ms="2058" started-at="2017-10-10T08:38:24Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="OpenBrowser" duration-ms="7" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="OpenBrowser" duration-ms="6" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SignIn()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="SignIn" duration-ms="2" started-at="2017-10-10T08:27:46Z" depends-on-methods="texch_x.Tech_x_testNG.OpenBrowser" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="SignIn" duration-ms="1" started-at="2017-10-10T08:38:26Z" depends-on-methods="texch_x.Tech_x_testNG.OpenBrowser" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f1()[pri:1, instance:texch_x.Tech_x_testNG@32d992b2]" name="f1" duration-ms="375" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="f1()[pri:1, instance:texch_x.Tech_x_testNG@32d992b2]" name="f1" duration-ms="340" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="f2()[pri:2, instance:texch_x.Tech_x_testNG@32d992b2]" name="f2" duration-ms="2296" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:48Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at texch_x.Tech_x_testNG.f2(Tech_x_testNG.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:776)
-	at org.testng.TestRunner.run(TestRunner.java:634)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
-	at org.testng.TestNG.runSuites(TestNG.java:1161)
-	at org.testng.TestNG.run(TestNG.java:1129)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:2, instance:texch_x.Tech_x_testNG@32d992b2]" name="f2" duration-ms="603" started-at="2017-10-10T08:38:26Z" finished-at="2017-10-10T08:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:46Z" finished-at="2017-10-10T08:27:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:48Z" finished-at="2017-10-10T08:27:48Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-10T08:38:27Z" finished-at="2017-10-10T08:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="f3()[pri:3, instance:texch_x.Tech_x_testNG@32d992b2]" name="f3" duration-ms="1" started-at="2017-10-10T08:27:48Z" finished-at="2017-10-10T08:27:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f3 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:48Z" finished-at="2017-10-10T08:27:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:27Z" finished-at="2017-10-10T08:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:27:48Z" finished-at="2017-10-10T08:27:48Z">
+        <test-method status="PASS" signature="f3()[pri:3, instance:texch_x.Tech_x_testNG@32d992b2]" name="f3" duration-ms="2" started-at="2017-10-10T08:38:27Z" finished-at="2017-10-10T08:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:texch_x.Tech_x_testNG@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-10T08:38:27Z" finished-at="2017-10-10T08:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- texch_x.Tech_x_testNG -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

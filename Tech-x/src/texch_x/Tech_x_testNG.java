@@ -41,7 +41,7 @@ public class Tech_x_testNG {
   @Test(priority=2)
   public void f2() {
 	  System.out.println("f2");
-	  driver.get("http://local-tech-x.com/tst.html");
+	  driver.get("http://local-tech-x.com/test.html");
 		
 		// Link Test
 		driver.findElement(By.partialLinkText("Partial")).click();
